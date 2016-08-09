@@ -1,5 +1,9 @@
-1 asd 2
-2 dsaf 3
-10 skdk 1
-255 asdasd 215
-3 sdasds 213
+1	Michael Bolton	87.20
+2	James Ingram	92.13
+3	Kanye West	73.83
+4	MatthewBellamy	81.75
+5	Paul McCartney	99.99
+6	Mick Jagger	93.27
+7	Adom Levine	65.34
+8	Thom Yorke	65.34
+9	Chris Martin	86.38
