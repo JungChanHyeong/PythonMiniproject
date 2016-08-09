@@ -144,7 +144,7 @@ def print_data(data):
 	txt.delete(1.0, END)
 	for i in range(10):
 		if data[i][3] == True:
-			txt.insert(END, data[i][0] + "	" + data[i][1] + "	" + data[i][2] + "\n")
+			txt.insert(END, data[i][0] + "	" + data[i][1] + "		" + data[i][2] + "\n")
 
 def num_check(data, num):
 	for i in range(10):
@@ -170,12 +170,12 @@ def name_sort(data):
 
 def score_sort_asc(data):
 	txt.delete(1.0, END)
-	data.sort(key=lambda x: int(x[2]), reverse=True)
+	data.sort(key=lambda x: float(x[2]), reverse=True)
 	print_data(data)
 
 def score_sort_des(data):
 	txt.delete(1.0, END)
-	data.sort(key=lambda x: int(x[2]))
+	data.sort(key=lambda x: float(x[2]))
 	print_data(data)
 
 root.mainloop()
